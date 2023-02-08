@@ -1,0 +1,130 @@
+body{
+    width: 100%;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.bluebg{
+    background: rgb(148, 187, 231);
+    padding: 70px 30px;
+}
+.whitebg{
+    /*background-color:*/
+    padding-left: 100px;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    background: url(image/images-removebg-preview.png), rgb(233, 236, 242);
+    overflow: hidden;
+    background-size: 950px;
+    background-repeat: no-repeat;
+    background-position-x: 950px;
+    background-position-y: -200px;
+}
+.content{
+    width: 40%;
+    justify-content: left;
+    left: 100px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content:center;
+    width: 70%;
+    font-weight: bold;
+    padding: 10px;
+    align-items: center;
+    
+    padding-left: 0px;
+}
+li{
+    margin-right: 70px;
+    margin-top: 10px;
+    
+}
+.logo{
+    margin-left: -55px;
+    letter-spacing: -11px;
+    font-weight: 900;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-right: 80px;
+}
+.m, .o{
+    color: blue;
+    margin: 0px;
+    padding: 0px;
+}
+.u, .m{
+    text-decoration: underline;
+    margin: 0px;
+    margin: 0px;
+}
+.whyhumo{
+    color: blue;
+}
+.signin{
+    background-color: blue;
+    color: white;
+    border-radius: 10px 0px 0px 10px;
+    padding: 5px 10px;
+    margin-right: 0px;
+    
+    margin-bottom: 10px;
+}
+.signout{
+    background-color: white;
+    color: grey;
+    border-radius: 0px 10px 10px 0px;
+    padding: 5px 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+.heading{
+    margin-top: 50px;
+    font-size: 70px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+.hrline{
+    margin-top: 0px;
+    width: 220px;
+    height: 2px;
+    position:relative;
+    left: -169px;
+    background-color: blue;
+}
+.writeup{
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.seemore{
+    background: blue;
+    width: fit-content;
+    padding: 5px 50px;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: large;
+}
+.greather{
+    color: rgb(234, 224, 224);
+    position: fixed;
+    top: 470px;
+    left: 280px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+.social{
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.twitter, .youtube, .facebook{
+    height: 20px;
+    padding: 0px;
+    margin-left: 0px;
+    width: 50px;
+}

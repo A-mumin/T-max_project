@@ -1,0 +1,121 @@
+body{
+    background-color: gray;
+    font-family: cursive;
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+}
+.section{
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+}
+.title{
+    border: 5px dashed blue;
+    margin: 5px 650px 10px 650px;
+    padding: 10px;
+    font-weight: bolder;
+}
+.bgimage{
+    background: linear-gradient(rgb(240, 247, 28) 30%, blue 10%, rgb(183, 21, 21) 100%);
+    padding: 20px;
+    margin: 0px;
+    border: 2px solid black;
+
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border: 5px solid white;
+    border-radius: 50%;
+    padding: 1px;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.circle div{
+    top: 50px;
+    position: absolute;
+    width: 50px;
+    text-align: center;
+    font-weight: 900;
+}
+.cc{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.myname{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px white, -1px -1px white;
+    letter-spacing: 5px;
+    box-shadow: inset 2px 2px 50px white;
+    padding: 5px;
+    margin-top: 10px;
+}
+p{
+    padding: 10px;
+}
+.quote{
+    text-align: right;
+    margin-right: 50px;
+    font-style: italic;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    table-layout: fixed;
+    
+}
+.data{
+    background-color: red;
+}
+ul{
+    text-align: justify;
+}
+progress::-webkit-progress-bar{
+    width: 70%;
+    background-color: red;
+}
+progress::-webkit-progress-value{
+    color: aliceblue;
+}
+input, textarea{
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    font-style: italic;
+    font-weight: bold;
+}
+textarea{
+    height: 150px;
+}
+.submit{
+    width: 5%;
+    background-color: blue;
+    border-radius: 10px;
+}
+.submit:hover{
+    background-color: red;
+    transform: scale(1.5);
+    color: white;
+}
+.icons{
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+    padding: 15px;
+}
+.icons:hover{
+    opacity: 0.5;
+    transform: skew(6deg);
+}
+a{
+    text-decoration: none;
+}

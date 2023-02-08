@@ -1,0 +1,137 @@
+body{
+    background: url(background.jpeg);
+    color: white !important;
+    justify-content: space-around !important;
+}
+nav span{
+    background-color:rgb(91, 91, 230);
+    padding: 3px 5px;
+    font-weight: 800;
+    font-size: 20px;
+    margin: 0 3px;
+}
+nav a{
+    background-color: rgba(255, 255, 255,);
+}
+nav{
+    color: white !important;
+    justify-content: center !important;
+}
+a{
+    color: white !important;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    gap: px;
+}
+.face{
+    width: 45%;
+    background: url(image/face.jpeg);
+    background-size: cover;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    border: 20px solid rgb(99, 98, 98);
+    height: 90vh;
+}
+.text{
+    display: block;
+    align-items: center;
+    height: 80vh;
+    width: 45%;
+    padding: 80px 0;
+    
+}
+.every{
+    border: solid rgba(255, 255, 255, 0.126) 2px;
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: space-around;
+    padding: 30px;
+    margin: 40px 0;
+}
+.in{
+    display: flex;
+    justify-content: space-around;
+}
+.first{
+    width: 40%;
+}
+.second{
+    width: 40%;
+}
+.ocean{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.profile{
+    display: flex;
+}
+.pic{
+    width: 20%;
+    background: url(image/nuro.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.atifAslam{
+    margin: 0 6px;
+    font-weight: 750;
+}
+.numbers b{
+    margin: 5px;
+    font-size: 20px;
+}
+.numbers span{
+    margin: 10px;
+
+}
+.bt2{
+    width: 100%;
+    background-color: rgb(91, 91, 230);
+    color: white;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.cards {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.cards div{
+    /* margin: 5px; */
+    padding: 10px;
+    border: 1px solid white;
+
+}
+.category span{
+    justify-content: space-between;
+}
+@media only screen and (max-width: 1000px) {
+    /* For mobile phones: */
+    body{
+      width: 100%;
+      text-align: center;
+    }
+    .content{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .face{
+        height: 50vh;
+        width: 60%;
+        background-size: contain;
+        padding: auto;
+    }
+    .text{
+        height: 50vh;
+        width: 100%;
+        
+    }
+  }

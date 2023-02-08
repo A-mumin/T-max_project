@@ -1,0 +1,313 @@
+*{
+    margin: auto;
+    text-align: center;
+}
+body{
+    width: 100%;
+    padding: 5px;
+    /* background-color: rgba(96, 49, 49, 0.765); */
+    background: url(image/flower\ background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+nav{
+    display: flex;
+    width: auto;
+    height: 10vh;
+    /* background: rgb(139, 139, 219); */
+    border-bottom: 10px solid white;
+    border-top: 5px solid white;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    box-shadow: 2px 2px 2px 20px black
+}
+.logo{
+    height: 100%;
+    width: 2%;
+    padding-left: 50px;
+    margin-left: 10px;
+}
+strong{
+    margin-left: 70px;
+    border-bottom: 2px solid black;
+    box-shadow: 2px 2px 2px 2px black;
+    padding: 10px 50px;
+    background-color: white;
+}
+strong:hover{
+    background-color: green;
+    color: white;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.content_signup{
+    margin-top: 200px;
+    display: flex;
+    height: 60vh;
+    padding: 5px;
+}
+.content{
+    width: 68%;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 0;
+    opacity: 0.8;
+    box-shadow: 0px 0px 10px 2px black;
+    height: 98.5%;
+}
+h1{
+    width: auto;
+    font-size: 80px;  
+    margin-left: 100px;
+    margin-top: 50px;
+    text-align: left;
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+b{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    font-style: italic;
+    margin-left: 200px;
+    /* margin-top: 50px; */
+    font-size: 90px;
+    text-shadow: 5px 5px 5px red, -5px -5px 5px green;
+}
+hr{
+    height: 10px;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.home, i{
+    font-size: 30px;
+    width: auto;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+form{
+    height: auto;
+    width: auto;
+    height: 100%;
+    margin-left: 50px;
+}
+.dform{
+    width: 110%;
+    height: 98%;
+    display: flex;
+    text-align: justify;
+    box-shadow: 0px 0px 10px 2px black;
+    border-radius: 0px;
+    padding: 0px 10px 0px 0px;
+    background-color: white;
+    opacity: 0.8;
+}
+.order{
+    position: relative;
+    top: -50px;
+    left: 30px;
+    width: 100px;
+}
+.inputing{
+    margin-left: 25px;
+}
+input{
+    margin-bottom: 35px;
+    height: 25px;
+    border-radius: 10px;
+    width: 250px;
+    
+}
+.labeling{
+    margin-right: 0;
+}
+.label{
+    margin-bottom: 50px;
+    text-align: justify;
+}
+.last_section{
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 100px;
+}
+.social{
+    box-shadow: 0px 0px 10px 2px black;
+}
+.cards{
+    margin-top: 5px;
+    display: flex;
+    width: 80%;
+    height: auto;
+    margin-left: 15px;
+    /* box-shadow: 0px 0px 10px 2px black; */
+}
+.card1{
+    height: 35vh;
+    width: 20%;
+    border: solid 1px green;
+    border-radius: 25px;
+    margin: 20px 20px;
+    box-shadow: 1px 1px 10px 5px black;
+    background-color: white;
+    opacity: 0.9;
+}
+h3{
+    font-weight: 600;
+}
+.image1{
+    background: url(image/flower1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 20px auto;
+}
+.image2{
+    background: url(image/flower2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 20px auto;
+}
+.image3{
+    background: url(image/flower3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 20px auto;
+}
+.image4{
+    background: url(image/flower4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 20px auto;
+}
+.image5{
+    background: url(image/flower5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 20px auto;
+}
+.post{
+    margin-bottom: 20px;
+    font-style: italic;
+}
+.section{
+    background-color: rgb(118, 113, 113);
+    padding: 10px 0px;
+    border-radius: 0 0 25px 25px;
+    border-top: 0px solid black;
+}
+.bttn{
+    padding: 15px;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 5px;
+    font-weight: 900;
+    background-color: white;
+}
+button:hover{
+    background-color: green;
+    transform: scale(1.02);
+    color: white;
+    transition: 1s;
+}
+h4{
+    border-bottom: 2px solid black;
+    box-shadow: 2px 2px 2px 2px black;
+    padding: 10px 50px;
+    background-color: white;
+    margin-bottom: 20px;
+    
+}
+h4:hover{
+    background-color: green;
+    color: white;
+    transition: 2s;
+}
+.facebook, .twitter, .youtube{
+    margin-top: 15px;
+    height: 50px;
+    vertical-align: middle;
+}
+.facebook:hover, .twitter:hover, .youtube:hover{
+    transform: scale(1.3);
+}
+em{
+    margin-left: 10px;
+    margin-top: 75px;
+    color: white;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px black;
+}
+.massage{
+    margin: 10px 32px;
+    background-color: white;
+    opacity: 0.8;
+    display: block;
+    border-top: 20px solid black;
+    box-shadow: 0px 0px 10px 2px black;
+}
+.massage2{
+    display: flex;
+    
+}
+h2{
+    font-size: 40px;
+    font-style: italic;
+}
+span, .span1{
+    position: relative;
+    margin: 20px;
+    left: -520px;
+    top: -70px;
+}
+.span1{
+    top: -160px;
+}
+#textarea{
+    height: 150px;
+}
+.box input, .box textarea{
+    border: none;
+    height: 170px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 0;
+    box-shadow: 2px 2px 2px black;
+    margin-top: 20px;
+    width: 500px;
+    overflow: scroll;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+span:focus{
+    transform: translate(30px 30px);
+    color: red;
+    transform: scale(0.5);
+}
+/* .box input:focus{ 
+    scale: 1.5;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 0;
+    height: 100px;
+    word-wrap: break-word;*/

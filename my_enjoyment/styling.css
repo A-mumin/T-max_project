@@ -1,0 +1,68 @@
+nav{
+    display: flex;
+    background-color: grey;    
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    height: 60px;
+}
+
+ul{
+    display: flex;
+    list-style:none;
+    padding: 20px;
+    margin-right: 0px;
+    color: white;
+}
+li{
+    padding: 20px;
+    margin: 5px;
+    border-right: 1px solid white;
+}
+.bbc_logo{
+    border: 2px solid white;
+    padding: 10px;
+    width: 15%;
+    justify-content:center;
+}
+.logo_letters{
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 1px;
+    color: black;
+    background-color: white;
+    padding: 2px;
+    justify-content:center;
+}
+.avatar_singin{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    padding: 1px;
+    justify-content:center;
+    width: 10%;
+}
+.avatar{
+    width: 30%;
+    height: 50%;
+    margin: 10px;
+    color: white;
+}
+.search{
+    display:flex;
+    justify-content:flex-end;
+    width: 20%;
+
+}
+.search_icon{
+    width: 15%;
+    position:relative;
+}
+.search_bar{
+    width:75%;
+}
+.avatar_singin, .bars, .search{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bolder;
+}
